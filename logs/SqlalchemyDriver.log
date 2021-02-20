@@ -1,0 +1,329 @@
+[2021-02-20 16:24:12,127 | db.py, __init__, line 48 | INFO] init db
+[2021-02-20 16:24:12,271 | base.py, _execute_context, line 1234 | INFO] SHOW VARIABLES LIKE 'sql_mode'
+[2021-02-20 16:24:12,271 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,281 | base.py, _execute_context, line 1234 | INFO] SHOW VARIABLES LIKE 'lower_case_table_names'
+[2021-02-20 16:24:12,281 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,297 | base.py, _execute_context, line 1234 | INFO] SELECT DATABASE()
+[2021-02-20 16:24:12,297 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,306 | base.py, _execute_context, line 1234 | INFO] show collation where `Charset` = 'utf8mb4' and `Collation` = 'utf8mb4_bin'
+[2021-02-20 16:24:12,306 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,312 | base.py, _cursor_execute, line 1340 | INFO] SELECT CAST('test plain returns' AS CHAR(60)) AS anon_1
+[2021-02-20 16:24:12,312 | base.py, _cursor_execute, line 1341 | INFO] {}
+[2021-02-20 16:24:12,351 | base.py, _cursor_execute, line 1340 | INFO] SELECT CAST('test unicode returns' AS CHAR(60)) AS anon_1
+[2021-02-20 16:24:12,351 | base.py, _cursor_execute, line 1341 | INFO] {}
+[2021-02-20 16:24:12,354 | base.py, _cursor_execute, line 1340 | INFO] SELECT CAST('test collated returns' AS CHAR CHARACTER SET utf8mb4) COLLATE utf8mb4_bin AS anon_1
+[2021-02-20 16:24:12,355 | base.py, _cursor_execute, line 1341 | INFO] {}
+[2021-02-20 16:24:12,367 | base.py, _execute_context, line 1234 | INFO] SHOW FULL TABLES FROM `forest`
+[2021-02-20 16:24:12,368 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,391 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `auth_group`
+[2021-02-20 16:24:12,391 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,395 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `auth_group_permissions`
+[2021-02-20 16:24:12,395 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,406 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `auth_permission`
+[2021-02-20 16:24:12,406 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,412 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `django_content_type`
+[2021-02-20 16:24:12,412 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,419 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `django_admin_log`
+[2021-02-20 16:24:12,419 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,471 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_user`
+[2021-02-20 16:24:12,471 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,479 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_employee`
+[2021-02-20 16:24:12,480 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,495 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_department`
+[2021-02-20 16:24:12,495 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,518 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `django_migrations`
+[2021-02-20 16:24:12,518 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,525 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `django_session`
+[2021-02-20 16:24:12,525 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,537 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `equota_local_cons`
+[2021-02-20 16:24:12,538 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,561 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `equota_local_courts`
+[2021-02-20 16:24:12,561 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,579 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `equota_local_courts_line`
+[2021-02-20 16:24:12,579 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,586 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `equota_local_gb_rydl`
+[2021-02-20 16:24:12,587 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,609 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `equota_local_line`
+[2021-02-20 16:24:12,609 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,621 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `equota_local_org`
+[2021-02-20 16:24:12,621 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,636 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `equota_local_org_data`
+[2021-02-20 16:24:12,636 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,654 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `equota_local_user_fhsj`
+[2021-02-20 16:24:12,654 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,671 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `equota_local_user_rydl`
+[2021-02-20 16:24:12,671 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,692 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_abnormal_electricity_diagnosis_info`
+[2021-02-20 16:24:12,693 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,697 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_abnormal_topo_diagnosis_info`
+[2021-02-20 16:24:12,697 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,718 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_ae_diagnosis_processing_result`
+[2021-02-20 16:24:12,718 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,736 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_ae_site_processing`
+[2021-02-20 16:24:12,737 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,761 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_process_employee`
+[2021-02-20 16:24:12,761 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,769 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_algo_line_loss_computing_result_summary`
+[2021-02-20 16:24:12,769 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,776 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_algo_terminal_loss_analysis_result_summary`
+[2021-02-20 16:24:12,777 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,784 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_algo_topo_ident_result_summary`
+[2021-02-20 16:24:12,784 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,793 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_algo_update_status_summary`
+[2021-02-20 16:24:12,793 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,799 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_courts_day_line_loss_rate`
+[2021-02-20 16:24:12,799 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,822 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_courts_month_line_loss_rate`
+[2021-02-20 16:24:12,822 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,840 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_customized_diagnosis_task`
+[2021-02-20 16:24:12,840 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,850 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_service_area`
+[2021-02-20 16:24:12,850 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,858 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_district`
+[2021-02-20 16:24:12,858 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,873 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_transformer`
+[2021-02-20 16:24:12,873 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,880 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_power_line`
+[2021-02-20 16:24:12,880 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,886 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_data_sync_error_log`
+[2021-02-20 16:24:12,886 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,890 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_data_sync_operation_record`
+[2021-02-20 16:24:12,890 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,898 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_diagnosis_processing_result`
+[2021-02-20 16:24:12,898 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,908 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_diagnosis_suspected_courts`
+[2021-02-20 16:24:12,908 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,936 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_dict_high_line_loss_rate_reason`
+[2021-02-20 16:24:12,936 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,949 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_global_config`
+[2021-02-20 16:24:12,949 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,962 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_global_config_setting`
+[2021-02-20 16:24:12,962 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,970 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_line_loss_reason_terminal_user_relation`
+[2021-02-20 16:24:12,970 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,976 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_month_line_loss_rate_reason_relation`
+[2021-02-20 16:24:12,976 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,980 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_process_employee_courts`
+[2021-02-20 16:24:12,981 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,988 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_processing_result_additional_info`
+[2021-02-20 16:24:12,988 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,993 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_resource`
+[2021-02-20 16:24:12,993 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:12,997 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_role`
+[2021-02-20 16:24:12,997 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,002 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_role_resource`
+[2021-02-20 16:24:13,002 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,010 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_service_area_property`
+[2021-02-20 16:24:13,010 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,020 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_site_processing`
+[2021-02-20 16:24:13,020 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,066 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_sm_service`
+[2021-02-20 16:24:13,066 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,073 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_terminal_user`
+[2021-02-20 16:24:13,074 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,088 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_terminal_user_daily_data`
+[2021-02-20 16:24:13,088 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,097 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_terminal_user_daily_data_repo`
+[2021-02-20 16:24:13,098 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,112 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_terminal_user_time_series_data`
+[2021-02-20 16:24:13,112 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,126 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_terminal_user_time_series_data_repo`
+[2021-02-20 16:24:13,126 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,133 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_transformer_daily_data`
+[2021-02-20 16:24:13,133 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,165 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_transformer_daily_data_repo`
+[2021-02-20 16:24:13,165 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,192 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_transformer_property`
+[2021-02-20 16:24:13,192 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,199 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_transformer_time_series_data`
+[2021-02-20 16:24:13,199 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,248 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_transformer_time_series_data_repo`
+[2021-02-20 16:24:13,248 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,261 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_user_groups`
+[2021-02-20 16:24:13,261 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,271 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_user_role`
+[2021-02-20 16:24:13,271 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,277 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `ne_tm_user_user_permissions`
+[2021-02-20 16:24:13,277 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:24:13,282 | base.py, _execute_context, line 1234 | INFO] SHOW CREATE TABLE `temp_transformer_location_info`
+[2021-02-20 16:24:13,282 | base.py, _execute_context, line 1239 | INFO] {}
+[2021-02-20 16:25:00,346 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:25:00,352 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:25:00,353 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:25:00,360 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:26:00,058 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:26:00,063 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_terminal_user.id AS ne_tm_terminal_user_id, ne_tm_terminal_user.created_at AS ne_tm_terminal_user_created_at, ne_tm_terminal_user.updated_at AS ne_tm_terminal_user_updated_at, ne_tm_terminal_user.name AS ne_tm_terminal_user_name, ne_tm_terminal_user.user_no AS ne_tm_terminal_user_user_no, ne_tm_terminal_user.user_type AS ne_tm_terminal_user_user_type, ne_tm_terminal_user.is_deleted AS ne_tm_terminal_user_is_deleted, ne_tm_terminal_user.transformer_id AS ne_tm_terminal_user_transformer_id, ne_tm_terminal_user.is_abnormal_elec AS ne_tm_terminal_user_is_abnormal_elec, ne_tm_terminal_user.is_abnormal_topo AS ne_tm_terminal_user_is_abnormal_topo, ne_tm_terminal_user.is_high_line_loss AS ne_tm_terminal_user_is_high_line_loss 
+FROM ne_tm_terminal_user 
+ LIMIT %(param_1)s
+[2021-02-20 16:26:00,064 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:26:00,084 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:26:00,443 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:26:00,452 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:26:00,453 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:26:00,470 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:27:00,160 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:27:00,164 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:27:00,165 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:27:00,723 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:28:00,114 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:28:00,116 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_terminal_user.id AS ne_tm_terminal_user_id, ne_tm_terminal_user.created_at AS ne_tm_terminal_user_created_at, ne_tm_terminal_user.updated_at AS ne_tm_terminal_user_updated_at, ne_tm_terminal_user.name AS ne_tm_terminal_user_name, ne_tm_terminal_user.user_no AS ne_tm_terminal_user_user_no, ne_tm_terminal_user.user_type AS ne_tm_terminal_user_user_type, ne_tm_terminal_user.is_deleted AS ne_tm_terminal_user_is_deleted, ne_tm_terminal_user.transformer_id AS ne_tm_terminal_user_transformer_id, ne_tm_terminal_user.is_abnormal_elec AS ne_tm_terminal_user_is_abnormal_elec, ne_tm_terminal_user.is_abnormal_topo AS ne_tm_terminal_user_is_abnormal_topo, ne_tm_terminal_user.is_high_line_loss AS ne_tm_terminal_user_is_high_line_loss 
+FROM ne_tm_terminal_user 
+ LIMIT %(param_1)s
+[2021-02-20 16:28:00,117 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:28:00,135 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:28:01,076 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:28:01,078 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:28:01,079 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:28:01,084 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:29:00,078 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:29:00,081 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:29:00,082 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:29:00,089 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:30:00,041 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:30:00,041 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:30:00,044 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_terminal_user.id AS ne_tm_terminal_user_id, ne_tm_terminal_user.created_at AS ne_tm_terminal_user_created_at, ne_tm_terminal_user.updated_at AS ne_tm_terminal_user_updated_at, ne_tm_terminal_user.name AS ne_tm_terminal_user_name, ne_tm_terminal_user.user_no AS ne_tm_terminal_user_user_no, ne_tm_terminal_user.user_type AS ne_tm_terminal_user_user_type, ne_tm_terminal_user.is_deleted AS ne_tm_terminal_user_is_deleted, ne_tm_terminal_user.transformer_id AS ne_tm_terminal_user_transformer_id, ne_tm_terminal_user.is_abnormal_elec AS ne_tm_terminal_user_is_abnormal_elec, ne_tm_terminal_user.is_abnormal_topo AS ne_tm_terminal_user_is_abnormal_topo, ne_tm_terminal_user.is_high_line_loss AS ne_tm_terminal_user_is_high_line_loss 
+FROM ne_tm_terminal_user 
+ LIMIT %(param_1)s
+[2021-02-20 16:30:00,044 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:30:00,044 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:30:00,045 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:30:00,051 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:30:00,051 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:31:00,044 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:31:00,046 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:31:00,046 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:31:00,056 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:32:00,046 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:32:00,046 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:32:00,048 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_terminal_user.id AS ne_tm_terminal_user_id, ne_tm_terminal_user.created_at AS ne_tm_terminal_user_created_at, ne_tm_terminal_user.updated_at AS ne_tm_terminal_user_updated_at, ne_tm_terminal_user.name AS ne_tm_terminal_user_name, ne_tm_terminal_user.user_no AS ne_tm_terminal_user_user_no, ne_tm_terminal_user.user_type AS ne_tm_terminal_user_user_type, ne_tm_terminal_user.is_deleted AS ne_tm_terminal_user_is_deleted, ne_tm_terminal_user.transformer_id AS ne_tm_terminal_user_transformer_id, ne_tm_terminal_user.is_abnormal_elec AS ne_tm_terminal_user_is_abnormal_elec, ne_tm_terminal_user.is_abnormal_topo AS ne_tm_terminal_user_is_abnormal_topo, ne_tm_terminal_user.is_high_line_loss AS ne_tm_terminal_user_is_high_line_loss 
+FROM ne_tm_terminal_user 
+ LIMIT %(param_1)s
+[2021-02-20 16:32:00,048 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:32:00,049 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:32:00,049 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:32:00,055 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:32:00,058 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:33:00,043 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:33:00,046 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:33:00,047 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:33:00,053 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:34:00,036 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:34:00,037 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:34:00,038 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:34:00,039 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:34:00,040 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_terminal_user.id AS ne_tm_terminal_user_id, ne_tm_terminal_user.created_at AS ne_tm_terminal_user_created_at, ne_tm_terminal_user.updated_at AS ne_tm_terminal_user_updated_at, ne_tm_terminal_user.name AS ne_tm_terminal_user_name, ne_tm_terminal_user.user_no AS ne_tm_terminal_user_user_no, ne_tm_terminal_user.user_type AS ne_tm_terminal_user_user_type, ne_tm_terminal_user.is_deleted AS ne_tm_terminal_user_is_deleted, ne_tm_terminal_user.transformer_id AS ne_tm_terminal_user_transformer_id, ne_tm_terminal_user.is_abnormal_elec AS ne_tm_terminal_user_is_abnormal_elec, ne_tm_terminal_user.is_abnormal_topo AS ne_tm_terminal_user_is_abnormal_topo, ne_tm_terminal_user.is_high_line_loss AS ne_tm_terminal_user_is_high_line_loss 
+FROM ne_tm_terminal_user 
+ LIMIT %(param_1)s
+[2021-02-20 16:34:00,041 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:34:00,045 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:34:00,046 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:35:00,530 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:35:00,533 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:35:00,534 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:35:00,547 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:36:00,017 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:36:00,019 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_terminal_user.id AS ne_tm_terminal_user_id, ne_tm_terminal_user.created_at AS ne_tm_terminal_user_created_at, ne_tm_terminal_user.updated_at AS ne_tm_terminal_user_updated_at, ne_tm_terminal_user.name AS ne_tm_terminal_user_name, ne_tm_terminal_user.user_no AS ne_tm_terminal_user_user_no, ne_tm_terminal_user.user_type AS ne_tm_terminal_user_user_type, ne_tm_terminal_user.is_deleted AS ne_tm_terminal_user_is_deleted, ne_tm_terminal_user.transformer_id AS ne_tm_terminal_user_transformer_id, ne_tm_terminal_user.is_abnormal_elec AS ne_tm_terminal_user_is_abnormal_elec, ne_tm_terminal_user.is_abnormal_topo AS ne_tm_terminal_user_is_abnormal_topo, ne_tm_terminal_user.is_high_line_loss AS ne_tm_terminal_user_is_high_line_loss 
+FROM ne_tm_terminal_user 
+ LIMIT %(param_1)s
+[2021-02-20 16:36:00,019 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:36:00,022 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:36:00,024 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:36:00,041 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:36:00,043 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:36:00,051 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:37:00,176 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:37:00,180 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:37:00,181 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:37:00,190 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:38:00,016 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:38:00,017 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_terminal_user.id AS ne_tm_terminal_user_id, ne_tm_terminal_user.created_at AS ne_tm_terminal_user_created_at, ne_tm_terminal_user.updated_at AS ne_tm_terminal_user_updated_at, ne_tm_terminal_user.name AS ne_tm_terminal_user_name, ne_tm_terminal_user.user_no AS ne_tm_terminal_user_user_no, ne_tm_terminal_user.user_type AS ne_tm_terminal_user_user_type, ne_tm_terminal_user.is_deleted AS ne_tm_terminal_user_is_deleted, ne_tm_terminal_user.transformer_id AS ne_tm_terminal_user_transformer_id, ne_tm_terminal_user.is_abnormal_elec AS ne_tm_terminal_user_is_abnormal_elec, ne_tm_terminal_user.is_abnormal_topo AS ne_tm_terminal_user_is_abnormal_topo, ne_tm_terminal_user.is_high_line_loss AS ne_tm_terminal_user_is_high_line_loss 
+FROM ne_tm_terminal_user 
+ LIMIT %(param_1)s
+[2021-02-20 16:38:00,019 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:38:00,025 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:38:00,027 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:38:00,042 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:38:00,042 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:38:00,052 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:39:00,020 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:39:00,022 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:39:00,022 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:39:00,035 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:40:00,020 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:40:00,022 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_terminal_user.id AS ne_tm_terminal_user_id, ne_tm_terminal_user.created_at AS ne_tm_terminal_user_created_at, ne_tm_terminal_user.updated_at AS ne_tm_terminal_user_updated_at, ne_tm_terminal_user.name AS ne_tm_terminal_user_name, ne_tm_terminal_user.user_no AS ne_tm_terminal_user_user_no, ne_tm_terminal_user.user_type AS ne_tm_terminal_user_user_type, ne_tm_terminal_user.is_deleted AS ne_tm_terminal_user_is_deleted, ne_tm_terminal_user.transformer_id AS ne_tm_terminal_user_transformer_id, ne_tm_terminal_user.is_abnormal_elec AS ne_tm_terminal_user_is_abnormal_elec, ne_tm_terminal_user.is_abnormal_topo AS ne_tm_terminal_user_is_abnormal_topo, ne_tm_terminal_user.is_high_line_loss AS ne_tm_terminal_user_is_high_line_loss 
+FROM ne_tm_terminal_user 
+ LIMIT %(param_1)s
+[2021-02-20 16:40:00,023 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:40:00,059 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:40:00,061 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:40:00,062 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:40:00,062 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:40:00,072 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:41:00,061 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:41:00,074 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:41:00,075 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:41:00,087 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:42:00,021 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:42:00,025 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_terminal_user.id AS ne_tm_terminal_user_id, ne_tm_terminal_user.created_at AS ne_tm_terminal_user_created_at, ne_tm_terminal_user.updated_at AS ne_tm_terminal_user_updated_at, ne_tm_terminal_user.name AS ne_tm_terminal_user_name, ne_tm_terminal_user.user_no AS ne_tm_terminal_user_user_no, ne_tm_terminal_user.user_type AS ne_tm_terminal_user_user_type, ne_tm_terminal_user.is_deleted AS ne_tm_terminal_user_is_deleted, ne_tm_terminal_user.transformer_id AS ne_tm_terminal_user_transformer_id, ne_tm_terminal_user.is_abnormal_elec AS ne_tm_terminal_user_is_abnormal_elec, ne_tm_terminal_user.is_abnormal_topo AS ne_tm_terminal_user_is_abnormal_topo, ne_tm_terminal_user.is_high_line_loss AS ne_tm_terminal_user_is_high_line_loss 
+FROM ne_tm_terminal_user 
+ LIMIT %(param_1)s
+[2021-02-20 16:42:00,027 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:42:00,033 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:42:00,059 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:42:00,063 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:42:00,063 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:42:00,072 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:43:00,035 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:43:00,038 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:43:00,042 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:43:00,051 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:44:00,018 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:44:00,021 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_terminal_user.id AS ne_tm_terminal_user_id, ne_tm_terminal_user.created_at AS ne_tm_terminal_user_created_at, ne_tm_terminal_user.updated_at AS ne_tm_terminal_user_updated_at, ne_tm_terminal_user.name AS ne_tm_terminal_user_name, ne_tm_terminal_user.user_no AS ne_tm_terminal_user_user_no, ne_tm_terminal_user.user_type AS ne_tm_terminal_user_user_type, ne_tm_terminal_user.is_deleted AS ne_tm_terminal_user_is_deleted, ne_tm_terminal_user.transformer_id AS ne_tm_terminal_user_transformer_id, ne_tm_terminal_user.is_abnormal_elec AS ne_tm_terminal_user_is_abnormal_elec, ne_tm_terminal_user.is_abnormal_topo AS ne_tm_terminal_user_is_abnormal_topo, ne_tm_terminal_user.is_high_line_loss AS ne_tm_terminal_user_is_high_line_loss 
+FROM ne_tm_terminal_user 
+ LIMIT %(param_1)s
+[2021-02-20 16:44:00,022 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:44:00,023 | base.py, _begin_impl, line 727 | INFO] BEGIN (implicit)
+[2021-02-20 16:44:00,025 | base.py, _execute_context, line 1234 | INFO] SELECT ne_tm_transformer.id AS ne_tm_transformer_id, ne_tm_transformer.created_at AS ne_tm_transformer_created_at, ne_tm_transformer.updated_at AS ne_tm_transformer_updated_at, ne_tm_transformer.name AS ne_tm_transformer_name, ne_tm_transformer.courts_no AS ne_tm_transformer_courts_no, ne_tm_transformer.trans_type AS ne_tm_transformer_trans_type, ne_tm_transformer.is_deleted AS ne_tm_transformer_is_deleted, ne_tm_transformer.power_line_id AS ne_tm_transformer_power_line_id, ne_tm_transformer.enabled_line_loss AS ne_tm_transformer_enabled_line_loss, ne_tm_transformer.is_abnormal_elec AS ne_tm_transformer_is_abnormal_elec, ne_tm_transformer.is_abnormal_topo AS ne_tm_transformer_is_abnormal_topo, ne_tm_transformer.is_high_line_loss AS ne_tm_transformer_is_high_line_loss, ne_tm_transformer.inst_addr AS ne_tm_transformer_inst_addr, ne_tm_transformer.v_nb_tg_no AS ne_tm_transformer_v_nb_tg_no, ne_tm_transformer.run_day AS ne_tm_transformer_run_day 
+FROM ne_tm_transformer 
+ LIMIT %(param_1)s
+[2021-02-20 16:44:00,026 | base.py, _execute_context, line 1239 | INFO] {'param_1': 1}
+[2021-02-20 16:44:00,028 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
+[2021-02-20 16:44:00,031 | base.py, _rollback_impl, line 747 | INFO] ROLLBACK
